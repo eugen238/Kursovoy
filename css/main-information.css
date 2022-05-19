@@ -20,20 +20,19 @@ body {
 
 .container {
     max-width: 1200px;
-    padding-top: 30px;
     margin: 0 auto;
 }
 
-.header {
+/* .header {
     border-bottom: 1px solid #2d2d2d;
-}
+} */
 
-.header .container {
+/* .header .container {
     padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+} */
 
 .phone {
     color: rgb(253, 239, 213);
