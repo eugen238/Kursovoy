@@ -5,21 +5,55 @@
     <title>SUPER SUSHI</title>
     <meta name="viewport" content="width=device-width, initial-scale-1.0">
     <link rel="stylesheet" href="css/main-information.css">
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/main-sass.sass"/>
 </head>
 <body>
-<header class="header">
-    <div class="container">
-        <div class="logo">
-            <a href="index.html">
-                <img src="images/logo.png" alt="" class="logo-image">
-                <span class="logo-text">SUPER SUSHI</span>
-            </a>
+    <header class="header flex">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="" class="logo-image">
+                    <span class="logo-text">SUPER SUSHI</span>
+                </a>
+            </div>
+            <div id="header-block">
+                <div id="burger">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink"
+                         width="40px" height="2px">
+                        <path fill-rule="evenodd" fill="#ffaf18"
+                              d="M0.000,-0.000 L40.000,-0.000 L40.000,2.000 L0.000,2.000 L0.000,-0.000 Z"/>
+                    </svg>
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="40px" height="2px">
+                        <path fill-rule="evenodd" fill="#ffaf18"
+                              d="M0.000,0.000 L40.000,0.000 L40.000,2.000 L0.000,2.000 L0.000,0.000 Z"/>
+                    </svg>
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="40px" height="2px">
+                        <path fill-rule="evenodd" fill="#ffaf18"
+                              d="M0.000,-0.000 L40.000,-0.000 L40.000,2.000 L0.000,2.000 L0.000,-0.000 Z"/>
+                    </svg>
+    
+                </div>
+                <nav>
+                    <a href="index.html" class="header-item active">Главная</a>
+                    <a href="order.html" class="header-item">Оформить заказ</a>
+                    <a href="information.html" class="header-item">О сушах</a>
+                </nav>
+            </div>
+            <div class="phone">
+                <span id="number" >
+                    +375 (29) 727-77-77
+                </span>
+            </div>
         </div>
-        <div class="phone">
-            <span>+375 (29) 368-98-68</span>
-        </div>
-    </div>
-</header>
+    </header>
 
 <section class="main">
     <div class="container">
