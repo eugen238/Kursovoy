@@ -1,0 +1,111 @@
+@import "main.css"
+
+//color
+$color: #ffaf18
+$back: #020303
+$bx-sh: 0px 4px 4px rgba(135, 135, 135, 0.829)
+
+//margin padding
+$mr-null: 0
+$pd-null: 0
+$pd-30: 30px 0
+
+//font
+$font: Inter, serif
+$left: left
+
+//display
+$fl: flex
+$in-bl: inline-block
+$w: wrap
+
+//other
+$n: none
+$ind: 100
+
+//with
+$mx-w: 1200px
+
+*
+  padding: $pd-null
+  margin: $pd-null
+
+body
+  font-family: $font
+  background-color: $back
+
+header
+  padding: $pd-30
+
+.header .container
+  max-width: $mx-w
+  text-align: $left
+
+.header .container
+  font-family: $fl
+
+.logo
+  display: $in-bl
+
+.logo a
+  text-decoration: $n
+
+.logo-text
+  display: $in-bl
+
+#main-info
+  display: $in-bl
+
+#main-info h1 span
+  color: $color
+
+#main-info-texts .main-info-text
+  display: $in-bl
+
+#main-info-texts .main-info-image
+  display: $in-bl
+
+#main-info-action a
+  text-decoration: $n
+
+#main-info-action button
+  border: $n
+
+#main-image
+  display: $in-bl
+
+.middle .container
+  display: $fl
+  -ms-flex-wrap: $w
+  -webkit-flex-wrap: $w
+
+.middle-info
+  display: $in-bl
+
+.item .container
+  display: $fl
+
+#item-info
+  display: $in-bl
+
+#item-image
+  display: $fl
+
+.footer .container
+  display: $fl
+
+#footer-text
+  display: $in-bl
+
+@media screen and (max-width: 1220px)
+  .main-info-texts
+    display: $fl
+
+  .middle .container
+    flex-wrap: $w
+
+  .main .container
+    display: $fl
+
+  #item > .container
+    display: $fl
